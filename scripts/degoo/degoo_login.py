@@ -54,9 +54,9 @@ class Degoo:
 
     time.sleep(5)
     
-    cap = driver.switch_to.alert()
-    print(cap.text)
-    cap.accept()
+    alert = driver.switch_to.alert()
+    print(alert.text)
+    alert.accept()
     
     time.sleep(5)
 
