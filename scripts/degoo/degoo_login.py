@@ -47,12 +47,18 @@ class Degoo:
     freea_btn = driver.find_element_by_xpath("//span[@class='btn-radius btn btn-danger']")
     freea_btn.click()
     
-    time.sleep(10)
+    time.sleep(5)
 
     freeb_btn = driver.find_element_by_xpath("//button[@onclick='vxHome.giftRequest()']")
     freeb_btn.click()
 
-    time.sleep(10)
+    time.sleep(5)
+    
+    cap = driver.switch_to.alert()
+    print(cap.text)
+    cap.accept()
+    
+    time.sleep(5)
 
     print(u'Success')
     driver.implicitly_wait(30)
