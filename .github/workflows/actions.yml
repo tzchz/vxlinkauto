@@ -1,4 +1,4 @@
-name: py_scripts
+name: auto-signin
 
 on:
   push:
