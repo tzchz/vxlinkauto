@@ -44,7 +44,7 @@ class Degoo:
 
     time.sleep(10)
 
-    freea_btn = driver.find_element_by_xpath("//span[@onclick="$('#dpModal').modal('show')"]")
+    freea_btn = driver.find_element_by_xpath("//span[@class="btn-radius btn btn-danger"]")
     freea_btn.click()
     
     time.sleep(10)
