@@ -44,12 +44,12 @@ class Degoo:
 
     time.sleep(10)
 
-    freea_btn = driver.find_element_by_xpath("//span[@class="btn-radius btn btn-danger"]")
+    freea_btn = driver.find_element_by_xpath("//span[@class='btn-radius btn btn-danger']")
     freea_btn.click()
     
     time.sleep(10)
 
-    freeb_btn = driver.find_element_by_xpath("//button[@onclick="vxHome.giftRequest()"]")
+    freeb_btn = driver.find_element_by_xpath("//button[@onclick='vxHome.giftRequest()']")
     freeb_btn.click()
 
     time.sleep(10)
